@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+    
+</style>
+<body>
+<div class="box">
+    <table>
+        <tr><td colspan="5">
+            <input id="add"></input>
+        </td></tr>
+
+        <tr>
+            <td><button onclick="send(1)">1</button></td>
+            <td><button onclick="send(2)">2</button></td>
+            <td><button onclick="send(3)">3</button></td>
+            <td><button onclick="send(4)">4</button></td>
+            <td><button onclick="send(5)">5</button></td>
+   
+        </tr>
+            <tr>
+            <td><button onclick="send(6)">6</button></td>
+            <td><button onclick="send(7)">7</button></td>
+            <td><button onclick="send(8)">8</button></td>
+            <td><button onclick="send(9)">9</button></td>
+            <td><button onclick="send(0)">0</button></td>
+        </tr>
+            <td><button onclick="send('+')">+</button></td>
+            <td><button onclick="send('-')">-</button></td>
+            <td><button onclick="send('*')">*</button></td>
+            <td><button onclick="send('/')">/</button></td>
+            <td><button onclick="send('AC')">AC</button></td>
+            </tr>
+        <tr>
+            <td><button onclick="send('√')">√</button></td>
+            <td><button onclick="send('Log')">Log</button></td>
+            <td><button onclick="send('.')">.</button></td>
+            <td><button onclick="send('DEL')"><ion-icon name="close"></ion-icon></button></td>
+            <td><button onclick="send('=')">=</button></td>
+            
+        </tr>
+    </table>
+</div>
+</body>
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>

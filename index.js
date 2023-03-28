@@ -1,6 +1,6 @@
 function send(i)
 {
-    n=document.getElementById("add");
+    n=document.getElementById("call");
     switch(i){
         case 1 :n.value+=1;break;
         case 2 :n.value+=2;break;

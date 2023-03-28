@@ -14,37 +14,40 @@
 <div class="box">
     <table>
         <tr><td colspan="5">
-            <input id="add"></input>
-        </td></tr>
+            <input id="call"></input>
+        </td>
+        </tr>
 
+        <tr>
+            <td><button onclick="send('AC')">AC</button></td>
+            <td><button onclick="send('Log')">Log</button></td>
+            <td><button onclick="send('DEL')">DEL</td>
+            <td><button onclick="send('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="send(7)">7</button></td>
+            <td><button onclick="send(8)">8</button></td>
+            <td><button onclick="send(9)">9</button></td>
+            <td><button onclick="send('*')"><ion-icon name="close"></ion-icon></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="send(4)">4</button></td>
+            <td><button onclick="send(5)">5</button></td>
+            <td><button onclick="send(6)">6</button></td> 
+            <td><button onclick="send('-')"><ion-icon name="remove"></ion-icon></button></td>
+        </tr>
         <tr>
             <td><button onclick="send(1)">1</button></td>
             <td><button onclick="send(2)">2</button></td>
             <td><button onclick="send(3)">3</button></td>
-            <td><button onclick="send(4)">4</button></td>
-            <td><button onclick="send(5)">5</button></td>
-   
+            <td><button onclick="send('+')"><ion-icon name="add"></ion-icon></button></td>
         </tr>
-            <tr>
-            <td><button onclick="send(6)">6</button></td>
-            <td><button onclick="send(7)">7</button></td>
-            <td><button onclick="send(8)">8</button></td>
-            <td><button onclick="send(9)">9</button></td>
-            <td><button onclick="send(0)">0</button></td>
-        </tr>
-            <td><button onclick="send('+')">+</button></td>
-            <td><button onclick="send('-')">-</button></td>
-            <td><button onclick="send('*')">*</button></td>
-            <td><button onclick="send('/')">/</button></td>
-            <td><button onclick="send('AC')">AC</button></td>
-            </tr>
         <tr>
             <td><button onclick="send('√')">√</button></td>
-            <td><button onclick="send('Log')">Log</button></td>
+            <td><button onclick="send(0)">0</button></td>
             <td><button onclick="send('.')">.</button></td>
-            <td><button onclick="send('DEL')"><ion-icon name="close"></ion-icon></button></td>
-            <td><button onclick="send('=')">=</button></td>
-                       
+            <td><button onclick="send('=')"><ion-icon name="reorder-two"></ion-icon></button></td>
+
         </tr>
     </table>
 </div>
